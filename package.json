@@ -1,5 +1,5 @@
 {
-  "name": "poolparty",
+  "name": "soundparty",
   "version": "0.1.0",
   "description": "Chat with your friends while you listen to the best music on SoundCloud.",
   "main": "server.js",
