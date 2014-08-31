@@ -1,0 +1,25 @@
+{
+  "name": "soundparty",
+  "description": "Chat with your friends while you listen to the best music on SoundCloud.",
+  "version": "0.1.0",
+  "authors": [
+    "Nick <me@izzmo.com>"
+  ],
+  "main": "server.js",
+  "license": "MIT",
+  "homepage": "http://soundparty.us",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/ext"
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "foundation": "~5.4.3",
+    "angular": "~1.2.23"
+  }
+}
