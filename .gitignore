@@ -1,6 +1,6 @@
 node_modules/
-public/resources/ext/
-public/resources/css/*.*
+public/vendor/
+public/css/*.*
 .*
 !.gitignore
 !.bowerrc

@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     
     sass: {
       options: {
-        includePaths: ['public/resources/ext/foundation/scss']
+        includePaths: ['public/vendor/foundation/scss']
       },
       dist: {
         options: {
@@ -60,8 +60,8 @@ module.exports = function(grunt) {
           sourcemap: 'auto'
         },
         files: {
-          'public/resources/css/app.css': 'public/resources/scss/app.scss',
-          'public/resources/css/main.css': 'public/resources/scss/main.scss'
+          'public/css/app.css': 'public/scss/app.scss',
+          'public/css/main.css': 'public/scss/main.scss'
         }
       }
     },
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
       grunt: { files: ['Gruntfile.js'] },
 
       sass: {
-        files: 'resources/scss/**/*.scss',
+        files: 'scss/**/*.scss',
         tasks: ['sass']
       }
     }
